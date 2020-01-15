@@ -24,6 +24,11 @@
     color:#777;
 }
 
+.btn-grn {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
 .btn-text {
     &:link,
     &:visited {
@@ -32,7 +37,7 @@
         display: inline-block;
         text-decoration: none;
         border-bottom: .1rem solid $color-primary;
-        padding: .3rem;
+        padding: 1.25rem;
         transition: all .2s;
     }
 
