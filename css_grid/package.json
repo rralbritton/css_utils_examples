@@ -1,0 +1,20 @@
+{
+  "name": "scss-grid",
+  "version": "1.0.0",
+  "description": "scss float grid",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass scss/main.scss css/styles.css -w"
+  },
+  "keywords": [
+    "CSS",
+    "SASS",
+    "SCSS",
+    "HTML"
+  ],
+  "author": "Rachel Albritton",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
